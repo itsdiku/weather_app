@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simple api based Rails application.
 
-Things you may want to cover:
+This rails app doesn't have active record as its an external api based website.
 
-* Ruby version
+This is a bit overkilled for an rails app with using the active record, but I justed wanted to test how a rails app can handle external api calls.
 
-* System dependencies
+Feel free to copy the code.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rapidapi has been used as an external api.
