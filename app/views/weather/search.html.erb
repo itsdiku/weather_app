@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-6">
+      <h4>City Information - <%= @city[1][0]["name"] %></h4>
+      <dl>
+        <dt>Country</dt>
+        <dd><%= @city[1][0]["country"] %></dd>
+        <dt>Admin Area</dt>
+        <dd><%= @city[1][0]["adminArea"] %></dd>
+        <dt>Time Zone</dt>
+        <dd><%= @city[1][0]["timezone"] %></dd>
+
+        
+        <dt>Temperature</dt>
+        <dd><%= @weather["current"]["temperature"] %><span>°C</span></dd>
+        <dt>Condition</dt>
+        <dd><%= @weather["current"]["symbolPhrase"]%></dd>
+        <dt>Wind Speed</dt>
+        <dd><%= @weather["current"]["windSpeed"] %><span>kmph</span></dd>
+
+      </dl>
+    </div>
+  </div>
+</div>
+
+
+
+
