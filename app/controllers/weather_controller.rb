@@ -38,7 +38,7 @@ class WeatherController < ApplicationController
 
   def find_weather(id)
     query = URI.encode_uri_component("#{id}")
-    request_api("https://foreca-weather.p.rapidapi.com/current/#{query}?alt=0&tempunit=C&windunit=KMH&tz=Europe%2FLondon&lang=en")
+    request_api("https://foreca-weather.p.rapidapi.com/current/#{query}?alt=0&tempunit=C&windunit=KMH&tz=Asia%2FKolkata&lang=en")
   end
 
 
