@@ -21,7 +21,7 @@ class WeatherController < ApplicationController
       url,
       headers:{
         'X-RapidAPI-Host' => URI.parse(url).host,
-        'X-RapidAPI-Key' => '85390f2fbdmshfdadd12afb5f6b7p1b1069jsn80384aa70e0a'
+        'X-RapidAPI-Key' => 'Your API KEY Here'
       }
 
       )
